@@ -26,7 +26,8 @@ Capture the screen showing data statistics on the web server.
 (This screen shot should be included in a git repository and a final report). 
 
 
-pi : gcc -o SFREAL FinalSmartFarm.c -lwiringPi -lpthread -lmysqlclient 
+pi : gcc -o SFCREAL FinalSmartFarm.c -lwiringPi -lpthread -lmysqlclient 
+
 pi : ./SFCREAL
 
 ![1](https://user-images.githubusercontent.com/30142775/40271870-d6a6479e-5bde-11e8-90d6-d60260ac2cd0.png)
